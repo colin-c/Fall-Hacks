@@ -34,13 +34,13 @@ let decreaseHours = document.getElementsById("decreaseHoursButton");
 let decreaseMinutes = document.getElementsById("decreaseMinutesButton");
 let decreaseSeconds = document.getElementsById("decreaseSecondsButton");
 
-increaseHours.addEventListener("click", () => {
+decreaseHours.addEventListener("click", () => {
   timerDecrease("hours");
 });
-increaseMinutes.addEventListener("click", () => {
+decreaseMinutes.addEventListener("click", () => {
   timerDecrease("minutes");
 });
-increaseSeconds.addEventListener("click", () => {
+decreaseSeconds.addEventListener("click", () => {
   timerDecrease("seconds");
 });
 
