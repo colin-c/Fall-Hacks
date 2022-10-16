@@ -63,7 +63,7 @@ startTimer.addEventListener("click", () => {
 });
 
 pauseTimer.addEventListener("click", () => {
-  window.clearInterval(timeCountdown);
+  window.clearInterval(timerCountdown);
   pauseOrResume();
 });
 
@@ -159,7 +159,7 @@ function timer() {
   secondsCurrent.innerHTML = Math.floor(time % 60);
 
   if (time < 0) {
-    window.clearInterval(timeCountdown);
+    window.clearInterval(timerCountdown);
     hours = 0;
     minutes = 0;
     seconds = 0;
