@@ -4,9 +4,9 @@ let minutes = 0;
 let seconds = 0;
 
 // defining variables for the current time on the timer
-let hoursCurrent = document.getElementsById("hoursTimer");
-let minutesCurrent = document.getElementsById("minutesTimer");
-let secondsCurrent = document.getElementsById("secondsTimer");
+let hoursCurrent = document.getElementById("hoursTimer");
+let minutesCurrent = document.getElementById("minutesTimer");
+let secondsCurrent = document.getElementById("secondsTimer");
 
 // variables
 let time;
@@ -14,9 +14,9 @@ let timerCountdown;
 
 
 // increasing timer button
-let increaseHours = document.getElementsById("increaseHoursButton");
-let increaseMinutes = document.getElementsById("increaseMinutesButton");
-let increaseSeconds = document.getElementsById("increaseSecondsButton");
+let increaseHours = document.getElementById("increaseHoursButton");
+let increaseMinutes = document.getElementById("increaseMinutesButton");
+let increaseSeconds = document.getElementById("increaseSecondsButton");
 
 increaseHours.addEventListener("click", () => {
   timerIncrease("hours");
@@ -30,9 +30,9 @@ increaseSeconds.addEventListener("click", () => {
 
 
 // decreasing timer button
-let decreaseHours = document.getElementsById("decreaseHoursButton");
-let decreaseMinutes = document.getElementsById("decreaseMinutesButton");
-let decreaseSeconds = document.getElementsById("decreaseSecondsButton");
+let decreaseHours = document.getElementById("decreaseHoursButton");
+let decreaseMinutes = document.getElementById("decreaseMinutesButton");
+let decreaseSeconds = document.getElementById("decreaseSecondsButton");
 
 decreaseHours.addEventListener("click", () => {
   timerDecrease("hours");
@@ -46,9 +46,9 @@ decreaseSeconds.addEventListener("click", () => {
 
 
 // starting, pausing, and ending the timer
-let startTimer = document.getElementsById("startTimerButton");
-let pauseTimer = document.getElementsById("pauseTimerButton");
-let endTimer = document.getElementsById("endTimerButton");
+let startTimer = document.getElementById("startTimerButton");
+let pauseTimer = document.getElementById("pauseTimerButton");
+let endTimer = document.getElementById("endTimerButton");
 
 startTimer.addEventListener("click", () => {
   time = (hours * 3600) + (minutes * 60) + (seconds);
