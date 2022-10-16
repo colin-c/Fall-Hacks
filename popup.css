@@ -19,7 +19,7 @@ button {
 
 #timerPanel p {
   display: inline;
-  font-size: 30px;
+  font-size: 15px;
   font-family: verdana;
   transform: scaleY(0.7);
   transform-origin: 0 0;
@@ -50,9 +50,18 @@ button {
 }
 
 
-#pauseOrEndPanel {
+#endPanel {
   visibility: hidden;
+  width: 100%;
+  margin-top: 15px;
 }
+
+#endPanel button {
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+
 
 
 
