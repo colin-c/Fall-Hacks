@@ -10,4 +10,4 @@ We managed to utilize Javascript, HTML, and CSS to construct a Chrome extension 
 1. Install all the required documents
 2. Locate the Extension settings within Google Chrome 
 3. Enable developer mode and select the folder containing all the required documents
-4. Pin to dashboard and open 
+4. Pin to dashboard and open the extension
