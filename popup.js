@@ -67,7 +67,7 @@ pauseTimer.addEventListener("click", () => {
   pauseOrResume();
 });
 
-stopTimer.addEventListener("click", () => {
+endTimer.addEventListener("click", () => {
   window.clearInterval(timerCountdown);
   hours = 0;
   minutes = 0;
