@@ -201,10 +201,10 @@ function timerOff() {
 // function for pause and resume
 function pauseOrResume() {
   if (pauseTimer.innerHTML == "Pause") {
-    pauseTimer.innerHTML == "Resume";
+    pauseTimer.innerHTML = "Resume";
   }
 
   else if (pauseTimer.innerHTML == "Resume") {
-    pauseTimer.innerHTML == "Pause";
+    pauseTimer.innerHTML = "Pause";
   }
 }
